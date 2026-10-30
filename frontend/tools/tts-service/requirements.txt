@@ -1,0 +1,6 @@
+# Engine for the local speech service. torch is installed separately from the
+# CPU wheel index — see install.bat.
+fastapi>=0.110
+uvicorn>=0.29
+transformers>=4.44
+numpy>=1.24,<3

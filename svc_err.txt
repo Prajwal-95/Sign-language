@@ -1,0 +1,39 @@
+INFO:     Started server process [3832]
+INFO:     Waiting for application startup.
+2026-10-27 22:50:18,380 INFO ISL local speech service 1.0.0 on http://127.0.0.1:8765
+2026-10-27 22:50:18,382 INFO engines ready: {'en': 'mms', 'hi': 'mms', 'kn': 'mms'}
+2026-10-27 22:50:18,386 INFO pre-loading models (disable with TTS_WARMUP=0)...
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
+2026-10-27 22:50:30,454 INFO loading facebook/mms-tts-eng (en) into F:\Final Project\frontend\tools\tts-service\models
+2026-10-27 22:50:31,335 INFO HTTP Request: GET https://huggingface.co/api/models/facebook/mms-tts-eng "HTTP/1.1 200 OK"
+2026-10-27 22:50:31,735 INFO HTTP Request: GET https://huggingface.co/api/models/facebook/mms-tts-eng/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-10-27 22:50:32,175 INFO HTTP Request: GET https://huggingface.co/api/models/facebook/mms-tts-eng/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-10-27 22:50:32,559 INFO HTTP Request: GET https://huggingface.co/api/models/facebook/mms-tts-eng/revision/main "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/762 [00:00<?, ?it/s]Loading weights:  20%|#9        | 152/762 [00:00<00:00, 1511.12it/s]Loading weights:  46%|####6     | 352/762 [00:00<00:00, 1771.91it/s]Loading weights:  69%|######9   | 529/762 [00:00<00:00, 1438.74it/s]Loading weights:  89%|########9 | 679/762 [00:00<00:00, 1008.20it/s]Loading weights: 100%|##########| 762/762 [00:00<00:00, 1109.14it/s]
+2026-10-27 22:50:35,527 INFO   en ready in 17.1s
+2026-10-27 22:50:35,530 INFO loading facebook/mms-tts-hin (hi) into F:\Final Project\frontend\tools\tts-service\models
+2026-10-27 22:50:35,970 INFO HTTP Request: GET https://huggingface.co/api/models/facebook/mms-tts-hin "HTTP/1.1 200 OK"
+2026-10-27 22:50:36,453 INFO HTTP Request: GET https://huggingface.co/api/models/facebook/mms-tts-hin/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-10-27 22:50:36,761 INFO HTTP Request: GET https://huggingface.co/api/models/facebook/mms-tts-hin/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-10-27 22:50:37,133 INFO HTTP Request: GET https://huggingface.co/api/models/facebook/mms-tts-hin/revision/main "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/762 [00:00<?, ?it/s]Loading weights:  18%|#7        | 136/762 [00:00<00:00, 1045.65it/s]Loading weights:  40%|###9      | 303/762 [00:00<00:00, 1369.56it/s]Loading weights:  59%|#####9    | 452/762 [00:00<00:00, 1389.35it/s]Loading weights:  78%|#######7  | 594/762 [00:00<00:00, 934.04it/s] Loading weights:  92%|#########2| 704/762 [00:00<00:00, 953.84it/s]Loading weights: 100%|##########| 762/762 [00:00<00:00, 1018.29it/s]
+2026-10-27 22:50:40,188 INFO   hi ready in 4.7s
+2026-10-27 22:50:40,189 INFO loading facebook/mms-tts-kan (kn) into F:\Final Project\frontend\tools\tts-service\models
+2026-10-27 22:50:40,498 INFO HTTP Request: GET https://huggingface.co/api/models/facebook/mms-tts-kan "HTTP/1.1 200 OK"
+2026-10-27 22:50:40,980 INFO HTTP Request: GET https://huggingface.co/api/models/facebook/mms-tts-kan/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-10-27 22:50:41,278 INFO HTTP Request: GET https://huggingface.co/api/models/facebook/mms-tts-kan/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-10-27 22:50:41,628 INFO HTTP Request: GET https://huggingface.co/api/models/facebook/mms-tts-kan/revision/main "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/762 [00:00<?, ?it/s]Loading weights:   4%|3         | 27/762 [00:00<00:02, 258.33it/s]Loading weights:  19%|#9        | 145/762 [00:00<00:00, 689.35it/s]Loading weights:  36%|###6      | 276/762 [00:00<00:00, 945.93it/s]Loading weights:  60%|#####9    | 457/762 [00:00<00:00, 1260.68it/s]Loading weights:  77%|#######6  | 585/762 [00:00<00:00, 935.04it/s] Loading weights:  91%|######### | 690/762 [00:00<00:00, 871.53it/s]Loading weights: 100%|##########| 762/762 [00:00<00:00, 889.47it/s]
+2026-10-27 22:50:44,436 INFO   kn ready in 4.2s
+2026-10-27 22:57:36,199 INFO synthesising kn with mms
+2026-10-27 22:57:49,266 INFO synthesising kn with mms
+2026-10-27 23:01:40,828 INFO synthesising kn with mms
+2026-10-27 23:02:15,734 INFO synthesising kn with mms
+2026-10-27 23:03:15,919 INFO synthesising kn with mms
+2026-10-27 23:03:38,692 INFO synthesising kn with mms
+2026-10-27 23:03:52,044 INFO synthesising kn with mms
+2026-10-27 23:04:09,173 INFO synthesising kn with mms
+2026-10-27 23:04:20,445 INFO synthesising kn with mms
+2026-10-27 23:04:51,060 INFO synthesising kn with mms
+2026-10-27 23:05:05,156 INFO synthesising kn with mms

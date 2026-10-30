@@ -1,0 +1,12 @@
+INFO:     127.0.0.1:62823 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62830 - "POST /speak HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:54753 - "POST /speak HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:52798 - "POST /speak HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58375 - "POST /speak HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:64383 - "POST /speak HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64508 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54943 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54943 - "OPTIONS /speak HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:54943 - "POST /speak HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51964 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51964 - "POST /speak HTTP/1.1" 200 OK

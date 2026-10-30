@@ -1,0 +1,24 @@
+{
+  "classes": [
+    "HELLO",
+    "THANK_YOU",
+    "GOOD_MORNING",
+    "GOOD_AFTERNOON",
+    "WHAT_IS_YOUR_NAME",
+    "MAYBE",
+    "COME",
+    "DRINK",
+    "GIVE",
+    "CLEAN",
+    "COOK",
+    "CLOSE",
+    "BREAK",
+    "POUR",
+    "CRY",
+    "JUMP",
+    "TEA",
+    "KEY",
+    "WIFE"
+  ],
+  "seq_len": 32
+}

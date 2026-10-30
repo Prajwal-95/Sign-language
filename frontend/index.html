@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23078365'/><text y='0.9em' x='50%25' text-anchor='middle' font-size='62'>&#129309;</text></svg>"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#078B68" />
+    <meta
+      name="description"
+      content="Real-Time Indian Sign Language (ISL) to Speech Conversion — your webcam watches your hands, a neural network reads the motion, and every sign becomes a word spoken aloud."
+    />
+    <title>ISL → Speech · Speak with your hands</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!--
+      One font service, four families. Inter + Sora carry the interface; Noto Sans
+      Devanagari and Noto Sans Kannada are required for correct Hindi and Kannada
+      output rendering. `display=swap` keeps text visible on the first paint.
+    -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Noto+Sans+Kannada:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

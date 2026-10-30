@@ -1,0 +1,15 @@
+# Kill all stale processes
+Get-NetTCPConnection -LocalPort 8000,5173,5174 -ErrorAction SilentlyContinue |
+  Where-Object {$_.State -eq 'Listen'} |
+  Select-Object -ExpandProperty OwningProcess |
+  ForEach-Object { Stop-Process -Id $_ -Force -ErrorAction SilentlyContinue }
+Start-Sleep -Seconds 3
+
+# Start backend
+Start-Process powershell -WorkingDirectory "F:\Final Project\backend" -ArgumentList "-Command", ".\run.bat prod" -WindowStyle Hidden
+
+# Start frontend  
+Start-Process powershell -WorkingDirectory "F:\Final Project\frontend" -ArgumentList "-Command", "npm run dev" -WindowStyle Hidden
+
+Start-Sleep -Seconds 10
+Write-Host "Done! Open http://localhost:5173/translator"

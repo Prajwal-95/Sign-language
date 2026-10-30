@@ -1,0 +1,5 @@
+# Local speech service — runtime, never part of the frontend bundle.
+.venv/
+models/
+__pycache__/
+*.pyc

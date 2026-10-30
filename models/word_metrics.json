@@ -1,0 +1,32 @@
+{
+  "accuracy": 0.9642857142857143,
+  "precision": 0.968671679197995,
+  "recall": 0.9661654135338346,
+  "f1": 0.9646669120353332,
+  "n_classes": 19,
+  "seq_len": 32,
+  "hidden": 128,
+  "best_val_acc": 0.9642857142857143,
+  "classification_report": "                   precision    recall  f1-score   support\n\n            HELLO       1.00      1.00      1.00         7\n        THANK_YOU       0.86      1.00      0.92         6\n     GOOD_MORNING       1.00      1.00      1.00         6\n   GOOD_AFTERNOON       1.00      1.00      1.00         6\nWHAT_IS_YOUR_NAME       1.00      1.00      1.00         7\n            MAYBE       0.86      1.00      0.92         6\n             COME       1.00      0.83      0.91         6\n            DRINK       1.00      0.86      0.92         7\n             GIVE       1.00      1.00      1.00         6\n            CLEAN       1.00      1.00      1.00         6\n             COOK       1.00      0.83      0.91         6\n            CLOSE       1.00      0.83      0.91         6\n            BREAK       1.00      1.00      1.00         6\n             POUR       1.00      1.00      1.00         6\n              CRY       1.00      1.00      1.00         2\n             JUMP       0.83      1.00      0.91         5\n              TEA       1.00      1.00      1.00         6\n              KEY       0.86      1.00      0.92         6\n             WIFE       1.00      1.00      1.00         6\n\n         accuracy                           0.96       112\n        macro avg       0.97      0.97      0.96       112\n     weighted avg       0.97      0.96      0.96       112\n",
+  "per_class_accuracy": {
+    "HELLO": 1.0,
+    "THANK_YOU": 1.0,
+    "GOOD_MORNING": 1.0,
+    "GOOD_AFTERNOON": 1.0,
+    "WHAT_IS_YOUR_NAME": 1.0,
+    "MAYBE": 1.0,
+    "COME": 0.8333333333333334,
+    "DRINK": 0.8571428571428571,
+    "GIVE": 1.0,
+    "CLEAN": 1.0,
+    "COOK": 0.8333333333333334,
+    "CLOSE": 0.8333333333333334,
+    "BREAK": 1.0,
+    "POUR": 1.0,
+    "CRY": 1.0,
+    "JUMP": 1.0,
+    "TEA": 1.0,
+    "KEY": 1.0,
+    "WIFE": 1.0
+  }
+}

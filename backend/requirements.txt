@@ -1,0 +1,22 @@
+# ─────────────────────────────────────────────────────────────
+# ISL-to-Speech — Backend Python dependencies
+# Install with:  pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────
+
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+
+# Settings & environment
+pydantic==2.10.4
+pydantic-settings==2.6.1
+python-dotenv==1.0.1
+
+# Numerical computing
+# NOTE: MediaPipe (added in Phase 2) needs numpy<2.
+# If you are on Python 3.13+, bump this to numpy>=2.1 and we will
+# pin MediaPipe accordingly in Phase 2.
+numpy>=1.26.4,<2.0
+# Computer vision - MediaPipe (Phase 2)
+mediapipe==0.10.14
+opencv-contrib-python==4.10.0.84
